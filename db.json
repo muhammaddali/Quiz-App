@@ -1,0 +1,32 @@
+{
+  "login": {
+    "data": {
+      "token": "your-auth-token",
+      "user": {
+        "id": 1,
+        "email": "student@example.com",
+        "role": ["student"]
+      },
+      "permissions": [
+        { "path": "/dashboard/assignedQuizzes", "icon": "fas fa-clipboard-check", "label": "Assigned Quizzes" },
+        { "path": "/dashboard/pendingQuizzes", "icon": "fas fa-hourglass-half", "label": "Pending Quizzes" },
+        { "path": "/dashboard/attemptedQuizzes", "icon": "fas fa-check-circle", "label": "Attempted Quizzes" },
+        { "path": "/dashboard/viewQuizResult", "icon": "fas fa-chart-line", "label": "View Quiz Results" }
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "student@example.com",
+      "password": "student123",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}
